@@ -28,5 +28,5 @@ THREADS=8 CONN=1500 DUR=45s scripts/run_one.sh ./build/echo_uvent
 
 # Plots
 ```bash
-python3 scripts/analyze.py --in results/summary_1.csv --out plots --max-threads 8
+python3 scripts/analyze.py --in results/summary.csv --out plots --max-threads 8
 ```
